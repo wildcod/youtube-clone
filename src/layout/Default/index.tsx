@@ -7,7 +7,7 @@ const DefaultLayout = () => {
     <div className="border border-neutral-700">
       <Header />
       <Sidebar />
-      <div id="main" className="border border-zinc-700 ml-60">
+      <div id="main" className="border border-zinc-700 ml-60 mt-14">
         <Outlet />
       </div>
     </div>
